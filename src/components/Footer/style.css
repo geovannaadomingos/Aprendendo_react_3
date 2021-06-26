@@ -1,0 +1,32 @@
+.section_footer{
+    color: white;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+    font-size: 18px;
+    height: 110px;
+}
+.div_redesSociais_footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.redesSociais_img{
+    width: 25px;
+    margin-left: 15px;
+    margin-right: 15px ;
+}
+.p_footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.p_link_footer{
+    text-decoration: none;
+    color: wheat;
+    font-style: italic;
+}
+.p_link_footer:hover{
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+.main_autora{
+    background-color: wheat;
+}
+.descricao_main_autora{
+    padding: 50px;
+    text-align: center;
+}
+.div_input, .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input_autora{
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    border: 0 none;
+    outline: 0;
+}
+.div_cards_autora{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+.card_autora{
+    background-color: #4f2158;
+    margin: 20px;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+}
+.p_card_autora a{
+    text-decoration: none;
+    color: wheat;
+    font-style: italic;
+}
