@@ -13,7 +13,6 @@
 	font-weight: 900;
 	line-height: 78px;
     color: #4f2158;
-	width:90px;
 }
 
 .main img {
@@ -36,11 +35,9 @@
 	}
 
 	.main h1 {
-    font-size: 76px;
+    font-size: 60px;
 	font-weight: 900;
-	line-height: 78px;
     color: #4f2158;
-	width:90px;
 	}
 
 	.main p {
@@ -48,15 +45,26 @@
 		font-size: 24px;
 		line-height: 34px;
 		color: #4f2158;
-	
 	}
 
 	.main img {
 		margin-top: 4rem;
-		width: 100%;
+		width: 70%;
 		max-width: 1100px;
 		height: 100%;
 		max-height: 680px;
 		align-items: center;
+	}
+}
+@media (max-width:500px){
+	.main {
+		justify-content: center;
+	}
+    .main h1 {
+		font-size: 45px;
+		text-align: center;
+	}
+	.main p {
+		text-align: center;
 	}
 }

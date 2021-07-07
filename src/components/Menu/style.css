@@ -21,4 +21,16 @@
         display: flex;
         justify-content: flex-start;
     }
+    .menu li {
+        margin-left: 2rem;
+    }
+}
+@media (max-width:500px){
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+    .link {
+        font-size: 15px;
+    }
 }
